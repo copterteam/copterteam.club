@@ -1,0 +1,22 @@
+[02-Mar-2016 17:22:42 Europe/Moscow] PHP Fatal error:  Call to undefined function pdo_connect() in /home/polochka/public_html/club/upl/UploadHandler.php on line 1100
+[02-Mar-2016 17:22:42 Europe/Moscow] PHP Fatal error:  Call to undefined function pdo_connect() in /home/polochka/public_html/club/upl/UploadHandler.php on line 1100
+[02-Mar-2016 17:25:06 Europe/Moscow] PHP Fatal error:  Call to undefined function pdo_connect() in /home/polochka/public_html/club/upl/UploadHandler.php on line 1100
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagecreatefromjpeg(): gd-jpeg, libjpeg: recoverable error: Corrupt JPEG data: bad Huffman code
+ in /home/polochka/public_html/club/upl/UploadHandler.php on line 560
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagecreatefromjpeg(): '/home/polochka/public_html/club/upl/new/rucopterteam:gmail.com/1200x900 (6).jpg' is not a valid JPEG file in /home/polochka/public_html/club/upl/UploadHandler.php on line 560
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/polochka/public_html/club/upl/UploadHandler.php on line 720
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/polochka/public_html/club/upl/UploadHandler.php on line 721
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  Division by zero in /home/polochka/public_html/club/upl/UploadHandler.php on line 729
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  Division by zero in /home/polochka/public_html/club/upl/UploadHandler.php on line 731
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/polochka/public_html/club/upl/UploadHandler.php on line 746
+[03-Mar-2016 17:27:08 Europe/Moscow] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/polochka/public_html/club/upl/UploadHandler.php on line 780
+[04-Mar-2016 13:51:44 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:52:32 Europe/Moscow] PHP Notice:  Undefined index: control in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:54:14 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:54:40 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:54:42 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:54:47 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:55:28 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:55:33 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:55:44 Europe/Moscow] PHP Notice:  Undefined index: access in /home/polochka/public_html/club/upl/index.php on line 8
+[04-Mar-2016 13:58:38 Europe/Moscow] PHP Notice:  Undefined index: user_name in /home/polochka/public_html/club/upl/index.php on line 8
