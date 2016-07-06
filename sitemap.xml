@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>http://www.copterteam.ru/basemap.xml</loc>
+    <lastmod>2016-04-09</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.copterteam.ru/extramap.xml</loc>
+    <lastmod>2016-04-09</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>http://www.copterteam.ru/imagemap.xml</loc>
+    <lastmod>2016-04-09</lastmod>
+  </sitemap>
+</sitemapindex>
