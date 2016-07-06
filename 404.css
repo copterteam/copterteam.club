@@ -1,0 +1,10 @@
+.main_content .error_message{
+	
+	margin:150px 0px;
+	text-align:center;
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:35px;
+	font-weight:normal;
+    line-height:50px;	
+	color:rgb(200,200,200);		
+}
