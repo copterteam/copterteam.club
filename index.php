@@ -135,7 +135,7 @@ foreach($postarray as $post){
 	
 
 	$best_image = $post_image[current($rating)];
-
+	
 	$post_date = date('d.m.Y',$post[post_time]);
 ?>
 

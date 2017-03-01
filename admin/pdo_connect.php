@@ -2,6 +2,7 @@
 
 $env = getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'prod';
 
+
 if( $env !== 'dev' ) {
 	
     $db_user = 'u61668';

@@ -1,6 +1,6 @@
 <?
 
-
+date_default_timezone_set('UTC');
 
 function updateIndexmap(){
 	
@@ -243,8 +243,6 @@ function YearTextArg($year) {
 function get_age($birthdate){
 	
 	if($birthdate==''){ return('');}else{
-
-	date_default_timezone_set('UTC');
 	
 	$age = DateTime::createFromFormat('d.m.Y', $birthdate)
      ->diff(new DateTime('now'))
