@@ -1,0 +1,58 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine On
+RewriteRule ^.htaccess$ - [F]
+
+
+RewriteCond %{HTTP_HOST} ^copterteam.ru$
+RewriteRule ^(.*)$ "http\:\/\/www\.copterteam\.ru\/$1" [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+RewriteCond %{REQUEST_URI}  ^\/post\/.*$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^post\/(.*)$ post\/post.php
+
+RewriteCond %{REQUEST_URI}  ^\/users\/.*$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^users\/(.*)$ users\/user.php
+
+
+# Перенаправление на gzip файлы
+AddEncoding gzip .gz
+ <FilesMatch "\.js.gz$">
+  ForceType text/javascript  
+  Header set Content-Encoding: gzip
+</FilesMatch>
+
+<FilesMatch "\.js$">
+  RewriteEngine On
+  RewriteCond %{HTTP_USER_AGENT} !".*Safari.*"
+  RewriteCond %{HTTP:Accept-Encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule (.*)\.js$ $1\.js.gz [L]
+  ForceType text/javascript
+</FilesMatch>
+
+<FilesMatch "\.css.gz$">
+  ForceType text/css
+  Header set Content-Encoding: gzip
+</FilesMatch>
+
+<FilesMatch "\.css$">
+  RewriteEngine On
+  RewriteCond %{HTTP_USER_AGENT} !".*Safari.*"
+  RewriteCond %{HTTP:Accept-Encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}.gz -f
+  RewriteRule (.*)\.css$ $1\.css.gz [L]
+  ForceType text/css
+</FilesMatch>
+
+<FilesMatch "\.(ogg|ogv|svg|svgz|eot|otf|woff|mp4|ttf|rss|atom|jpg|jpeg|css|js|gif|png|ico|zip|tgz|gz|rar|bz2|doc|xls|exe|ppt|tar|mid|midi|wav|bmp|rtf)$">
+    Header set Cache-Control "max-age=2592000, must-revalidate"
+</FilesMatch>
