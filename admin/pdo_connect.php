@@ -1,8 +1,8 @@
 <?
 
-    $db_user = 'polochka_shukasa';
-    $db_pass = 'nhfrnjh.uf';
-    $db_name = 'polochka_copter';
+    $db_user = 'u61668';
+    $db_pass = 'tip9tnxyw4';
+    $db_name = 'u61668_copterteam';
 	
   try{ $link = new PDO("mysql:host=localhost;dbname=".$db_name,$db_user,$db_pass); } 
 
