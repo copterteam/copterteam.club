@@ -20,7 +20,7 @@ RewriteRule ^post\/(.*)$ post\/post.php
 RewriteCond %{REQUEST_URI}  ^\/editpost\/.*$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^post\/(.*)$ editpost\/edit_post.php
+RewriteRule ^editpost\/(.*)$ editpost\/edit_post.php
 
 
 RewriteCond %{REQUEST_URI}  ^\/users\/.*$
