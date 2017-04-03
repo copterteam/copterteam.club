@@ -17,6 +17,12 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^post\/(.*)$ post\/post.php
 
+RewriteCond %{REQUEST_URI}  ^\/editpost\/.*$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^post\/(.*)$ editpost\/edit_post.php
+
+
 RewriteCond %{REQUEST_URI}  ^\/users\/.*$
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
