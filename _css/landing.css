@@ -1,0 +1,168 @@
+﻿
+.main_content h1{
+		display:block;
+        text-align:center;
+		
+}
+
+.main_content h2{
+	display:block;
+	margin:30px 60px;
+	padding:0;
+	font-size:28px;
+    font-weight:300;
+	text-align:center;
+	line-height:1.5em;
+	color: #333;
+    font-family:'Ubuntu',NotoSans,sans-serif;	
+	margin-top:20px;
+		 -webkit-font-smoothing: antialiased;
+}
+.main_content img.img-topoffer{
+	
+	margin:40px;
+	float:left;
+	width:45%;
+}
+.main_content ul.profits{
+	
+	margin:40px 30px;
+	font-size:16px;
+    font-weight:300;
+	line-height:1.7em;
+	color: #333;
+    font-family:'Ubuntu',NotoSans,sans-serif;	
+	margin-top:80px;
+}
+.main_content ul.profits li:first-of-type{
+	
+	list-style:none;
+	font-weight:700;
+	margin-bottom:15px;
+}
+.main_content ul.profits button, .main_content .contacts form#contact_form button{
+   box-sizing:border-box;
+   height:36px;
+   width:268px;
+   color:#FFF;
+   font-family:'Ubuntu',NotoSans,sans-serif;
+   font-size:15px;
+   letter-spacing:1px;
+   border:0;
+   border-radius:5px;
+   background-color:rgb(255,81,0);
+	background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+    background-image: -o-linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(top, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%);
+	margin-top:30px;
+	cursor:pointer;
+}
+.main_content .pline{
+	background-image:url('../img/pline_grey.png');
+	background-repeat:repeat-x;
+	background-position:top left;
+	min-height:7px;
+	margin:60px 0;
+}
+
+
+.main_content .contacts form#contact_form button{
+	margin-left:2%;
+	cursor:default;
+	}
+	
+.main_content .contacts{
+	
+	background-image:url('../img/props.png');
+	background-repeat:no-repeat;
+	background-position:bottom right;
+	min-height:700px;
+}
+
+.main_content .contacts .phone,.main_content .contacts .email{
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:47px;
+	font-weight:bold;
+	text-align:center;
+}
+.main_content .contacts .email{ font-size:25px; }
+.main_content .contacts p.label{
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:20px;
+	font-weight:300;
+	text-align:center;
+	color:#bebebe;
+}
+
+
+.main_content .contacts form#contact_form{
+	
+	width:60%;
+	margin:50px 20px;
+	min-height:700px;
+}
+
+.main_content .contacts form#contact_form label{
+	
+	display:inline-block;
+	box-sizing:border-box;
+    width:30%;
+	margin:10px 2%;
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:17px;
+	color:rgb(37,37,37);
+    height:35px;	
+	padding:4px 12px;
+    padding-right:40px;
+}
+
+.main_content .contacts form#contact_form label strong{
+	display:inline-block;
+	padding:0 3px;
+	color:rgb(255,81,0);
+}
+.main_content .contacts form#contact_form label.header{
+	
+	 width:78%;
+	 font-weight:bold;
+	 text-transform:uppercase;
+}
+.main_content .contacts form#contact_form input{
+	
+    box-sizing:border-box;
+    width:61%;
+	margin:10px 2%;
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:20px;
+	color:rgb(37,37,37);
+    height:35px;	
+    border:1px solid rgb(190,190,190);
+	border-radius:2px;
+	padding:4px 12px;
+    padding-right:40px;
+}
+
+.main_content .contacts form#contact_form input.error{
+	 
+   background-image: url('../img/warning.png'); 
+   background-size:25px 25px;
+   background-position:  calc(100% - 20px) 4px;
+   background-repeat:no-repeat;
+ }
+.main_content .contacts form#contact_form textarea{
+	
+    box-sizing:border-box;
+    width:95%;
+	margin:15px 2%;
+	font-family:'Ubuntu',NotoSans,sans-serif;
+	font-size:18px;
+	color:rgb(37,37,37);
+    height:200px;	
+	border:1px solid rgb(190,190,190);
+	border-radius:2px;
+	padding:10px 12px;
+	margin-bottom:0px;
+
+}

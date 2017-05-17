@@ -4,7 +4,7 @@
 
       <div class="sitemap">
         
-		 <div id="vk_groups"></div>
+		<div id="vk_groups"></div>
 	
 		
 			<div class="maplinks">
