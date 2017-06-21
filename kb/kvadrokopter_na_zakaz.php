@@ -103,10 +103,10 @@ $uarray = $uquery->fetchAll();
 	  
 	  <form id="contact_form">
 	   <label class="header">Форма обратной связи</label>
-	   <label>Ваше имя<strong>*</strong>:</label><input type="text" />
-	   <label>Номер телефона<strong>*</strong>:</label><input type="text"  />
-	   <label>E-mail:</label><input type="text" />
-	   <textarea placeholder="Напишите Ваше сообщение"></textarea> 
+	   <label>Ваше имя<strong>*</strong>:</label><input name="username" type="text" />
+	   <label>Номер телефона<strong>*</strong>:</label><input name="userphone" type="text"  />
+	   <label>E-mail:</label><input name="usermail" type="text" />
+	   <textarea placeholder="Напишите Ваше сообщение" name="usertext"></textarea> 
 	   <button type="submit" >Оставить заявку</button>
 		
 	    <p class="label afterform">Вы можете оставить заявку в письменном виде, указав в комментариях ориентировочные параметры летательного аппарата и круг предполагаемых задач для него. Тогда мы заранее подготовим и просчитаем возможные варианты решения под различные бюджеты и сроки изготовления квадрокоптера на заказ.</p>

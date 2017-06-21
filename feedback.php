@@ -282,6 +282,16 @@ break;
 
 break;
 
+
+ 
+ case "submitform":
+
+
+
+	print("OK"); 
+	
+
+break;
    }
    
 
