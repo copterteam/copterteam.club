@@ -12,7 +12,7 @@ $uarray = $uquery->fetchAll();
 <html itemscope itemtype="http://schema.org/WebPage"">
 <head>
 <meta charset="utf-8" />
-<meta name="description"  content="Все участники сообщества COPTERTEAM. Имена пользователей в системе, ссылки на страницы блогов." />
+<meta name="description"  content="Заказать квадрокоптер под индивидуальные задачи в конструкторском бюро. Разработаем и изготовим квадрокоптер на заказ из современных материалов на новом оборудовании." />
 
 <title>Квадрокоптер на заказ | Конструкторское бюро Copterteam.club </title>
 
@@ -43,7 +43,7 @@ $uarray = $uquery->fetchAll();
       <h2>Разработаем проект. Изготовим квадрокоптер из современных материалов. Подключим и настроим электронику и софт.</h2>
   	
 	
-		<img class="img-topoffer" src="../img/img_topoffer.png">
+		<img class="img-topoffer" src="../img/img_topoffer.png" alt="Квадрокоптер">
 
 		
 		<ul class="profits">
@@ -58,6 +58,35 @@ $uarray = $uquery->fetchAll();
 		   <button type="button" id="act-button">Оставить заявку на просчет</button>
 		</ul>
 		
+		
+		<div class="clearfix"></div>
+	
+	    <div class="steptab">
+	    <img class="tabimg">
+	    <h3>1. Проектирование 3D</h3>
+		<p>
+		Разработка 3D моделей всех узлов летательного аппарата перед началом производства. 
+		Только рациональные конструкторские решения с учетом всех пожеланий заказчика. Объемный эскиз на согласование.
+		</p>
+	    </div>
+		
+		 <div class="steptab">
+	    <img class="tabimg">
+	    <h3>2. Обработка материалов</h3>
+		<p>
+		Прецизионная обработка на станках с ручным управлением и ЧПУ. Лазерная резка и 3D печать.
+		Прочные и легкие материалы в сочетании с современными технологиями производства. Прекрасное качество сборки.
+		</p>
+	    </div>
+		
+		 <div class="steptab">
+	    <img class="tabimg">
+	    <h3>3. Электроника и софт</h3>
+		<p>
+		Проверенные электронные компоненты. Надежный монтаж. Пыле- и влагозащита на борту. Настройка опытными специалистами.
+		Разработка программных модулей под нетривиальные задачи заказчика.
+		</p>
+	    </div>
 		
 		<div class="clearfix"></div>
 		
@@ -75,10 +104,13 @@ $uarray = $uquery->fetchAll();
 	  <form id="contact_form">
 	   <label class="header">Форма обратной связи</label>
 	   <label>Ваше имя<strong>*</strong>:</label><input type="text" />
-	    <label>Номер телефона<strong>*</strong>:</label><input type="text"  />
-		 <label>E-mail:</label><input type="text" />
-		 <textarea placeholder="Напишите Ваше сообщение"></textarea> 
-	    <button type="submit" >Оставить заявку</button>
+	   <label>Номер телефона<strong>*</strong>:</label><input type="text"  />
+	   <label>E-mail:</label><input type="text" />
+	   <textarea placeholder="Напишите Ваше сообщение"></textarea> 
+	   <button type="submit" >Оставить заявку</button>
+		
+	    <p class="label afterform">Вы можете оставить заявку в письменном виде, указав в комментариях ориентировочные параметры летательного аппарата и круг предполагаемых задач для него. Тогда мы заранее подготовим и просчитаем возможные варианты решения под различные бюджеты и сроки изготовления квадрокоптера на заказ.</p>
+		  
 	  </form>
 	
 			<div class="clearfix"></div>

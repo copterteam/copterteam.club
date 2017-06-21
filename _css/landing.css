@@ -59,6 +59,40 @@
 	margin-top:30px;
 	cursor:pointer;
 }
+.main_content .steptab{
+	
+	display:inline-block;
+	padding:40px 20px;
+	margin:10px 0px;
+	max-width:32%;
+	box-sizing:border-box;
+	vertical-align:top;
+}
+
+.main_content .steptab h3{
+	display:block;
+	margin:20px 10px;
+	padding:0;
+	font-size:20px;
+    font-weight:300;
+	text-align:center;
+	line-height:1.5em;
+	color: #333;
+    font-family:'Ubuntu',NotoSans,sans-serif;	
+	margin-top:20px;
+		 -webkit-font-smoothing: antialiased;
+}
+
+
+.main_content .steptab p{
+	padding:5px 40px;
+	font-size:16px;
+    font-weight:300;
+	text-align:center;
+	line-height:1.5em;
+	color: #333;
+    font-family:'Ubuntu',NotoSans,sans-serif;	
+}
 .main_content .pline{
 	background-image:url('../img/pline_grey.png');
 	background-repeat:repeat-x;
@@ -93,7 +127,7 @@
 	font-size:20px;
 	font-weight:300;
 	text-align:center;
-	color:#bebebe;
+	color:#bbb;
 }
 
 
@@ -114,8 +148,8 @@
 	font-size:17px;
 	color:rgb(37,37,37);
     height:35px;	
-	padding:4px 12px;
-    padding-right:40px;
+	padding:4px 5px;
+    padding-right:15px;
 }
 
 .main_content .contacts form#contact_form label strong{
@@ -165,4 +199,12 @@
 	padding:10px 12px;
 	margin-bottom:0px;
 
+}
+.main_content .contacts form#contact_form p.afterform{
+	
+	text-align:left;
+	font-size:17px;
+	line-height:1.4em;
+	padding:40px 15px;
+	color:#383840;
 }
