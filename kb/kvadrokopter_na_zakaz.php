@@ -124,7 +124,8 @@ $uarray = $uquery->fetchAll();
 <script src="/_js/jquery.color-2.1.2.min.js"></script>
 <script src="/_js/jquery.validate.min.js"></script>
 <script src="/_js/main.js"></script>
-	
+<script src="/_js/landing.js"></script>
+
 
 
 </body>
