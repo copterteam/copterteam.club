@@ -313,7 +313,7 @@ $usertext=$_POST['usertext'];
 		   $username <br><br>
 		   ------------------------------- <br><br>
 		   
-		   $userphone    &nbsp    &nbsp   &nbsp   $usermail
+		   $userphone    <br><br>   $usermail
 		   
 		   	</body>
             </html> 
