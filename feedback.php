@@ -299,13 +299,26 @@ $usertext=$_POST['usertext'];
 
            $mail_status=mail($submitmail, "Заявка с COPTERTEAM landing page", "
 		   
-		   $usertext  \r\n
+		  <!doctype html>
+          <html>
+          <head>
+          <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+          <meta charset='utf-8' />
+          </head>
+          <body style='margin:0;padding:0;'>
+
+           <br>
+		   $usertext  <br><br>
 		   
-		   $username \r\n
-		   ------------------------------- \r\n
+		   $username <br><br>
+		   ------------------------------- <br><br>
 		   
-		   $userphone    /    $usermail
+		   $userphone    &nbsp    &nbsp   &nbsp   $usermail
 		   
+		   	</body>
+            </html> 
+
+
 		   ", $headers);
 
 	print("OK"); 
