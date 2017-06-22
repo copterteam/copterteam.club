@@ -25,6 +25,7 @@
 				 <a href="/">Новые записи</a>
 				 <a href="/">Статьи</a>
 				 <a href="/users/">Участники</a>
+				 <a href="/kb/kvadrokopter_na_zakaz">КБ</a>
 			     <a itemprop="mainEntityOfPage" id="getlink" href="http://www.copterteam.ru<?echo($_SERVER['REQUEST_URI']);?>">Ссылка</a>
 				 
 				 <br><div class="jet">COPTERTEAM - Член экспертной группы MACS (Modern Aerial Copter Solutions). <br/>Зарегистрированный товарный знак. <br/>Все права защищены.</div>
