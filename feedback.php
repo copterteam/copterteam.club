@@ -299,10 +299,10 @@ $usertext=$_POST['usertext'];
 
            $mail_status=mail($submitmail, "Заявка с COPTERTEAM landing page", "
 		   
-		   $usertext
+		   $usertext  \r\n
 		   
-		   $username
-		   -------------------------------
+		   $username \r\n
+		   ------------------------------- \r\n
 		   
 		   $userphone    /    $usermail
 		   
