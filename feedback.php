@@ -291,7 +291,7 @@ $usermail=$_POST['usermail'];
 $userphone=$_POST['userphone'];
 $usertext=$_POST['usertext'];
 
-	$submitmail = 'rucopterteam@gmail.com';
+	$submitmail = 'kb@copterteam.ru';
 
            $headers="Content-type:text/html;charset=utf-8\r\n";
            $headers.="From: COPTERTEAM <info@copterteam.ru>\r\n";
