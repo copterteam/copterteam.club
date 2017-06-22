@@ -286,7 +286,27 @@ break;
  
  case "submitform":
 
+$username=$_POST['username'];
+$usermail=$_POST['usermail'];
+$userphone=$_POST['userphone'];
+$usertext=$_POST['usertext'];
 
+	$submitmail = 'rucopterteam@gmail.com';
+
+           $headers="Content-type:text/html;charset=utf-8\r\n";
+           $headers.="From: COPTERTEAM <info@copterteam.ru>\r\n";
+           $headers.="Reply-To: info@copterteam.ru\r\n";
+
+           $mail_status=mail('$submitmail', "Заявка с COPTERTEAM landing page", "
+		   
+		   $usertext
+		   
+		   $username
+		   -------------------------------
+		   
+		   $userphone    /    $usermail
+		   
+		   ", $headers);
 
 	print("OK"); 
 	

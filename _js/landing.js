@@ -4,7 +4,9 @@ $(document).ready(function(){
 	
 		$('button#act-button').click(function(cl){ cl.preventDefault(); 
 		
-		$(document).scroll('1500');
+		
+		
+		$("html, body").delay(100).animate({ scrollTop: '1500px' }, 700);
 
 		});		
 	
@@ -15,7 +17,7 @@ $(document).ready(function(){
 	
 	var loginform=$('.contacts form#contact_form').validate({  //   Проверка формы обратной связи
 		rules: {	username: {  required:true },userphone: {  required:true },usermail: {  required:false,email:true  } },
-		submitHandler: function(){  $('header .login_space form#loginform').attr('name','submitted'); }
+		submitHandler: function(){  $('.contacts form#contact_form').attr('name','submitted'); }
 	
 	                                          	}); // Конец Validate
 	
@@ -25,7 +27,6 @@ $(document).ready(function(){
 				
 			 if(  $(this).attr('name')=='submitted'  ){   //Запуск формы после успешной проверки
 		
-		        	$(this).find('input,textarea,button').prop('disabled',true);
 		
 		
 		   var logdata=
@@ -33,39 +34,26 @@ $(document).ready(function(){
 		 username:$(this).find('input[name="username"]').val(),
 		 usermail:$(this).find('input[name="usermail"]').val(),
 		 userphone:$(this).find('input[name="userphone"]').val(),
-		 usertext:$(this).find('input[name="usertext"]').val(),
+		 usertext:$(this).find('textarea[name="usertext"]').val(),
 		 act:'submitform'
 		 };	
 			
+		$(this).find('input,textarea,button').prop('disabled',true);
+            $('.contacts form#contact_form img.loading').show();
 							
 		  $.post('/feedback.php',logdata,function(answer){
 	
 	
      	if( answer != 'OK' ){
 			 
-			 $(self).attr('name','').find('input.lines,button').prop('disabled',false);
-			        $('header .login_space form#loginform img').hide();
-					
-		        $('header .login_space div.form_links .form_desc span').hide();
-					$('header .login_space div.form_links .form_desc').css({'color':'rgb(255,81,0)'}).find('span.stop').fadeIn(300);    
-			 
+			 $(self).attr('name','').find('input,textarea,button').prop('disabled',false);
+			       $('.contacts form#contact_form img.loading').hide();
+				
 		 }else{
 			 
-			 logdata.act = 'profile_check';
-			 
-			 $.post('/profileHandler.php',logdata,function(answer){
-			 
-			    switch (answer){
-					
-					case 'EMPTY':   window.location.href = '/edit_profile' ;
-
-					break;
-					
-					case 'DONE':   window.location.href = logdata.url ;
-
-					break;
-				}
-			 });
+			$(self).find('textarea').slideUp(300);
+			$(self).find('button').css('width','60%').text('Спасибо! Ваша заявка принята')
+			 $('.contacts form#contact_form img.loading').hide();
 		 }
 	     
 		  });

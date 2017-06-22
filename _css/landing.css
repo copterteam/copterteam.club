@@ -136,8 +136,16 @@
 	width:60%;
 	margin:50px 20px;
 	min-height:700px;
+	position:relative;
 }
-
+.main_content .contacts form#contact_form img.loading{
+	position:absolute;
+	top:40%;
+	left:50%;
+	width:40px;
+	height:40px;
+	display:none;
+}
 .main_content .contacts form#contact_form label{
 	
 	display:inline-block;
@@ -162,6 +170,11 @@
 	 width:78%;
 	 font-weight:bold;
 	 text-transform:uppercase;
+}
+.main_content .contacts form#contact_form label.error{
+	
+	 font-size:0;
+	 position:absolute;
 }
 .main_content .contacts form#contact_form input{
 	
