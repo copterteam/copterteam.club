@@ -96,7 +96,7 @@ $uarray = $uquery->fetchAll();
 	  <h2>Обратная связь</h2>
 	  
 	  <p class="label">Телефон в Санкт-Петербурге:</p>
-	  <div class="phone">(812) 350-10-22</div>
+	  <div class="phone">(812) 309-74-15</div>
 	  
 	  <p class="label">Адрес электронной почты:</p>
 	  <div class="email">kb@copterteam.ru</div>
