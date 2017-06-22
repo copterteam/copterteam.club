@@ -297,7 +297,7 @@ $usertext=$_POST['usertext'];
            $headers.="From: COPTERTEAM <info@copterteam.ru>\r\n";
            $headers.="Reply-To: info@copterteam.ru\r\n";
 
-           $mail_status=mail('$submitmail', "Заявка с COPTERTEAM landing page", "
+           $mail_status=mail($submitmail, "Заявка с COPTERTEAM landing page", "
 		   
 		   $usertext
 		   
