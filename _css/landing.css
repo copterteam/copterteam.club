@@ -221,3 +221,17 @@
 	padding:40px 15px;
 	color:#383840;
 }
+
+.main_content .carousel{
+	
+	height:200px;
+	background-color: #bebebe;
+	
+	
+	
+}
+
+.main_content .carousel img.bottomimg{
+	
+	height:200px;
+}

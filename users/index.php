@@ -2,7 +2,7 @@
 include_once("../admin/func.php");
 include_once("../admin/pdo_connect.php");
 
-$uquery = $link->query("SELECT clid,usercity,countryname,birthdate,mobile,username,surname,usermail,userpass,usernick,avafile,modified FROM club_users WHERE active='1' ORDER BY usernick ");
+$uquery = $link->query("SELECT clid,usercity,countryname,birthdate,mobile,username,surname,usermail,userpass,usernick,avafile,modified FROM club_users WHERE active='1' AND usernick <>'' ORDER BY usernick ");
 
 $usr = $uquery->rowCount();
 

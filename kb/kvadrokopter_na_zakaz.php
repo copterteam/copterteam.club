@@ -115,8 +115,23 @@ $uarray = $uquery->fetchAll();
 	  </form>
 	
 			<div class="clearfix"></div>
-
+		
+			
+	
 	</div>
+		<div class="carousel">	
+		
+			    <img class="bottomimg" src="photo/1.jpg">
+			    <img class="bottomimg" src="photo/2.jpg">
+			    <img class="bottomimg" src="photo/3.jpg">
+			    <img class="bottomimg" src="photo/4.jpg">
+			    <img class="bottomimg" src="photo/5.jpg">
+			    <img class="bottomimg" src="photo/6.jpg">
+			    <img class="bottomimg" src="photo/7.jpg">
+
+		
+		
+		</div>
 </div>
 
 <?include("../footer.php"); ?>
