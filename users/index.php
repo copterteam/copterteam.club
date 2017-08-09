@@ -49,6 +49,9 @@ $uarray = $uquery->fetchAll();
 	      <li><?echo($uarray[usernick]);?></li>
   </ul>
   
+    <h1>Все пользователи <span class="count">(<?echo($usr);?>)</span></h1>
+  	<div class="clearfix"></div>
+
 <?foreach($uarray as $uarray){
 	
 	
