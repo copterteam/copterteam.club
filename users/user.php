@@ -119,10 +119,8 @@ if( $uarray[city_status] == 'capital city'){
 	<div class="personal_info">	
 		  <strong class="nickname"><?echo($uarray[usernick]);?></strong>
 			<div class="sub_info"><span class="firstname"><?echo($full2name);?></span><span class="userage"><?echo get_age($uarray[birthdate]);?></span><br/>
-              <span class="usercity"><?echo($user_place);?></span>			
-			               <?if($uarray[mobile]){?> <span class="usercity">, <? echo($uarray[mobile]);?></span><?}?>			
-
-				</div>	
+              <span class="usercity"><?echo($user_place);?>   <?if($uarray[mobile]){?> &nbsp <? echo($uarray[mobile]);?> <?}?></span>			
+ 			  </div>	
 		</div>			
 		<?if($home){?>
 		   <a class="button post_but" href="../new_post" title="Написать в блог">Написать</a>

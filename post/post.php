@@ -221,7 +221,7 @@ if( $uarray[city_status] == 'capital city'){
 	<div class="personal_info" itemprop="author"  itemscope itemtype="http://schema.org/Person">	
 		  <a class="nickname" href="../users/<?echo($uarray[usernick]);?>"><span itemprop="additionalName"><?echo($uarray[usernick]);?></span></a>
 			<div class="sub_info"><span class="firstname" itemprop="name"><?echo($full2name);?></span><span class="userage"><?echo get_age($uarray[birthdate]);?></span><br/>
-              <span class="usercity"  itemprop="homeLocation"><?echo($user_place);?></span>			
+              <span class="usercity"  itemprop="homeLocation"><?echo($user_place);?> <?if($uarray[mobile]){?> &nbsp <? echo($uarray[mobile]);?> <?}?></span>			
 				</div>	
 		</div>			
 		
