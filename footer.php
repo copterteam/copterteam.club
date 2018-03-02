@@ -5,8 +5,8 @@
       <div class="sitemap">
         
 		<div class="maplinks" style="width:400px;margin-right:60px;">
-		<a href="http://www.kbgo.ru" target="_blank" style="border:0;">
-		  <img src="/img/kbgo_promo.png" width="400" height="200">
+		<a href="http://www.kbgo.ru" target="_blank" style="border:0;" title="Купить беспилотник для аэрофотосъемки">
+		  <img src="/img/kbgo_promo.png" width="400" height="200" alt="Купить беспилотник для аэрофотосъемки">
 		  </a>
 		</div>
 	
