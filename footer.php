@@ -4,7 +4,11 @@
 
       <div class="sitemap">
         
-		<div id="vk_groups"></div>
+		<div class="maplinks" style="width:400px;margin-right:60px;">
+		<a href="http://www.kbgo.ru" target="_blank" style="border:0;">
+		  <img src="/img/kbgo_promo.png" width="400" height="200">
+		  </a>
+		</div>
 	
 		
 			<div class="maplinks">
@@ -25,7 +29,7 @@
 				 <a href="/">Новые записи</a>
 				 <a href="/">Статьи</a>
 				 <a href="/users/">Участники</a>
-				 <a href="http://www.kbgo.ru">КБ</a>
+				 <a href="http://www.kbgo.ru" target="_blank">КБ</a>
 			     <a itemprop="mainEntityOfPage" id="getlink" href="http://www.copterteam.ru<?echo($_SERVER['REQUEST_URI']);?>">Ссылка</a>
 				 
 				 <br><div class="jet">COPTERTEAM - Член экспертной группы MACS (Modern Aerial Copter Solutions). <br/>Зарегистрированный товарный знак. <br/>Все права защищены.</div>
@@ -48,9 +52,10 @@
       </div>
 	 </footer>
 	 
-	
+	<!-- 
 	<script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 0, width: "400", height: "220", color1: '383840', color2: 'F4F6F7', color3: '3d3d45'}, 117898522);</script>
-	 
+	  -->
+	  
 	<!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
