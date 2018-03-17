@@ -25,8 +25,6 @@
 	  
 				  <div class="maplinks">
 				 <a href="/">Главная</a>
-				 <a href="/">Поиск</a>
-				 <a href="/">Новые записи</a>
 				 <a href="/">Статьи</a>
 				 <a href="http://www.kbgo.ru" target="_blank">КБ</a>
 			     <a itemprop="mainEntityOfPage" id="getlink" href="http://www.copterteam.ru<?echo($_SERVER['REQUEST_URI']);?>">Ссылка</a>
