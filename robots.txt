@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /admin/
+Disallow: /users/index_old.php
 
 Sitemap: http://www.copterteam.ru/sitemap.xml
 Host: www.copterteam.ru

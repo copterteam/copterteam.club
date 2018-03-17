@@ -31,7 +31,9 @@ include_once("admin/pdo_connect.php");
 
    <h1 class="utp">Сообщество любителей<br/>коптеров и беспилотных дронов</h1>
 	 <span class="utp mini">Реальный опыт использования квадрокоптеров, гексакоптеров и других мультироторных БПЛА</span>
-<div class="blacktab">  
+
+	 <!--
+	 <div class="blacktab">  
 	 <ul>
      <li>Регистрация в системе позволяет:</li>
      <li>Комментировать материалы сайта</li>
@@ -67,7 +69,7 @@ include_once("admin/pdo_connect.php");
     <div class="clearfix"></div>
   
  </div> 
-  
+  -->
 
 </div>
 

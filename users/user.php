@@ -155,8 +155,7 @@ if( $uarray[city_status] == 'capital city'){
 
     <ul class="crumbls">
     <li><a href="/">Главная</a></li>
-       <li><a href="/users/">Пользователи</a></li>	
-	      <li><?echo($uarray[usernick]);?></li>
+      <li><?echo($uarray[usernick]);?></li>
   </ul>
   
   <div class="left_column">

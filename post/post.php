@@ -229,7 +229,6 @@ if( $uarray[city_status] == 'capital city'){
 
     <ul class="crumbls">
     <li><a href="/">Главная</a></li>
-       <li><a href="/users/">Пользователи</a></li>	
 	      <li><a href="/users/<?echo($uarray[usernick]);?>"><?echo($uarray[usernick]);?></a></li>
 		     <li><?echo($barray[header]);?></li>
   </ul>
