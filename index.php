@@ -32,7 +32,7 @@ include_once("admin/pdo_connect.php");
    <h1 class="utp">Сообщество любителей<br/>коптеров и беспилотных дронов</h1>
 	 <span class="utp mini">Реальный опыт использования квадрокоптеров, гексакоптеров и других мультироторных БПЛА</span>
 
-	 <!--
+	
 	 <div class="blacktab">  
 	 <ul>
      <li>Регистрация в системе позволяет:</li>
@@ -46,7 +46,7 @@ include_once("admin/pdo_connect.php");
 
 
     <div class="rightcolumn">
-      <div class="beginform">
+       <!--<div class="beginform">
         <form id="beginform">
 	        <input type="text" name="username" placeholder="Ваше Имя">
 		      <input type="text" name="usermail" placeholder="Ваш E-mail">
@@ -62,7 +62,7 @@ include_once("admin/pdo_connect.php");
           <button type="submit">Начать работу!</button>
 	      </form>
 		  <div class="cover"><img src="img/loading.gif"/></div>
-      </div>
+      </div> -->
    </div>
   
   
